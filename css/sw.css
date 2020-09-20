@@ -1,57 +1,26 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
-
-p1 {
-  height: 100%;
-  font-weight: 80;
+@import url('https://fonts.googleapis.com/css2?family=Corben:wght@700&family=Courgette&family=Rubik+Mono+One&display=swap');
+.intro-2 {
+    background: url("../img/c1.jpg")no-repeat center center;
+    background-size: cover;
 }
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
 
 body{
-  background: #030321;
-  font-family: Arial;
-}
-
-svg {
-    display: block;
-    font: 10.5em 'Montserrat';
-    width: 600px;
-    height: 200px;
-    margin: 0 auto;
-}
-
-.text-copy {
-    fill: none;
-    stroke: white;
-    stroke-dasharray: 6% 29%;
-    stroke-width: 5px;
-    stroke-dashoffset: 0%;
-    animation: stroke-offset 5.5s infinite linear;
-}
-
-.text-copy:nth-child(1){
-	stroke: #4D163D;
-	animation-delay: -1;
-}
-
-.text-copy:nth-child(2){
-	stroke: #840037;
-	animation-delay: -2s;
-}
-
-.text-copy:nth-child(3){
-	stroke: #BD0034;
-	animation-delay: -3s;
-}
-
-.text-copy:nth-child(4){
-	stroke: #BD0034;
-	animation-delay: -4s;
-}
-
-.text-copy:nth-child(5){
-	stroke: #FDB731;
-	animation-delay: -5s;
-}
-
-@keyframes stroke-offset{
-	100% {stroke-dashoffset: -35%;}
+  background: rgb(85,219,237);
+background: -moz-radial-gradient(circle, rgba(85,219,237,1) 0%, rgba(29,125,224,1) 33%, rgba(69,124,180,1) 42%, rgba(19,33,131,1) 72%, rgba(0,0,0,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(85,219,237,1) 0%, rgba(29,125,224,1) 33%, rgba(69,124,180,1) 42%, rgba(19,33,131,1) 72%, rgba(0,0,0,1) 100%);
+background: radial-gradient(circle, rgba(85,219,237,1) 0%, rgba(29,125,224,1) 33%, rgba(69,124,180,1) 42%, rgba(19,33,131,1) 72%, rgba(0,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#55dbed",endColorstr="#000000",GradientType=1);
 }
