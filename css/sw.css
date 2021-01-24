@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url('https://fonts.googleapis.com/css2?family=Corben:wght@700&family=Courgette&family=Rubik+Mono+One&display=swap');
 .intro-2 {
-    background: url("../img/c1.jpg")no-repeat center center;
+    background: url("..img/photo-1512295767273-ac109ac3acfa.jpeg")no-repeat center center;
     background-size: cover;
 }
 @media only screen and (max-width: 768px) {
