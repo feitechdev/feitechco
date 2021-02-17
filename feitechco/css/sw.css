@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url('https://fonts.googleapis.com/css2?family=Corben:wght@700&family=Courgette&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+/* .intro-2 {
+    background-image: url('/img/bg image header.jpg');
+    background-size: cover;
+} */
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
+body{
+    background-image: url(/img/background-1.jpg);
+    /* background-size: auto; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: rgba(0,0,0,0.5); */
+}
+
+
+    
+image-2{
+    vertical-align: middle;
+    border-style: none;
+    /* max-width: 1000px; */
+    width: 533px;
+    margin-left: 236px;
+    /* height: 100px; */
+    max-height: 60vh;
+}
+
+.overlay{
+    background-color: rgba(0,0,0,0.5); 
+}
+.container{
+    margin-bottom: 15vh;
+    
+    margin: 0 !important;
+    max-width:inherit;
+    padding-bottom: 150px;
+}
+.img-fluid{
+    max-width: 70%;
+    height: auto;
+    /* padding-left: 10px; */
+    margin-left: 472px;
+    max-height: 76vh;
+}
+img{
+    vertical-align: middle;
+    border-style: none;
+    height: 285px; !important
+}
