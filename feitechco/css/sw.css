@@ -51,6 +51,47 @@ image-2{
 }
 img{
     vertical-align: middle;
-    border-style: none;
-    height: 285px; !important
+    border-style: solid;
+    height: 350px;
+     
+}
+#card-img-top-1{
+    max-height: 10px;
+}
+.centre{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+
+  color: aliceblue;
+  text-align: center;
+}
+#firstid{
+    width: max-content;
+    margin-left: 680px;
+    border-radius: 10px;
+}
+#firstimage{
+    max-width: 550px;
+    
+    width: 460px;
+    margin-left: 13px;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: black;
+    text-shadow: chartreuse;
+    background-color: wheat;
+    border-radius: 5px;
+    width: 130px;
+    margin-left: 685px;
+    text-align: center;
+    padding: 4px;
+    border-style:  5px solid black;
+}
 }
