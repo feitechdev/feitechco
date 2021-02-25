@@ -1,0 +1,33 @@
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+.rainbow-text {
+	padding: 10px;
+	white-space: pre-wrap;
+}
+.rainbow-text2 {
+	padding: 0px;
+	white-space: pre-wrap;
+}
+.rainbow-text span{
+	font-size: 42px;
+  color: #ffffff;
+	text-shadow: 15px 12px 9px #000000;
+	-webkit-text-stroke: 1.9px #ffffff;
+	display: inline-block;
+  padding-top: 300px;
+}
+.rainbow-text2 span{
+	font-size: 24px;
+  color: #ffffff;
+	text-shadow: 20px 1px 12px #000000;
+	display: inline-block;
+}
+
+.tracking-in-contract-bck-top{-webkit-animation:tracking-in-contract-bck-top 5s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-contract-bck-top 5s cubic-bezier(.215,.61,.355,1.000) both}
+.tracking-in-expand-fwd-bottom{-webkit-animation:tracking-in-expand-fwd-bottom 5s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand-fwd-bottom 5s cubic-bezier(.215,.61,.355,1.000) both}
+
+
+@-webkit-keyframes tracking-in-expand-fwd-bottom{0%{letter-spacing:-.5em;-webkit-transform:translateZ(-700px) translateY(500px);transform:translateZ(-700px) translateY(500px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0) translateY(0);transform:translateZ(0) translateY(0);opacity:1}}@keyframes tracking-in-expand-fwd-bottom{0%{letter-spacing:-.5em;-webkit-transform:translateZ(-700px) translateY(500px);transform:translateZ(-700px) translateY(500px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0) translateY(0);transform:translateZ(0) translateY(0);opacity:1}}
+@-webkit-keyframes tracking-in-contract-bck-top{0%{letter-spacing:1em;-webkit-transform:translateZ(400px) translateY(-300px);transform:translateZ(400px) translateY(-300px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0) translateY(0);transform:translateZ(0) translateY(0);opacity:1}}@keyframes tracking-in-contract-bck-top{0%{letter-spacing:1em;-webkit-transform:translateZ(400px) translateY(-300px);transform:translateZ(400px) translateY(-300px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0) translateY(0);transform:translateZ(0) translateY(0);opacity:1}}
