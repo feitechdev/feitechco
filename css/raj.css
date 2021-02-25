@@ -5,27 +5,31 @@
 
 .raj-2 {
   padding-top: 50px;
-  padding-bottom: 30px;
-  color: #ffffff;
-  font-size: 36px;
+  padding-bottom: 40px;
+  color: #fdd9d9;
+  font-size: 52px;
   font-weight: bold;
   text-align: center;
-  text-shadow: 5px 5px 2px #000000;
-  letter-spacing: 3px;
+  text-shadow: 6px 4px 2px #000000;
+  letter-spacing: 20px;
+  font-family: 'Londrina Solid', cursive;
 }
 
 .card {
-  background: rgb(63,94,251);
-background: -moz-radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
-background: -webkit-radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
-background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  background-color: transparent;
+  
+
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5efb",endColorstr="#fc466b",GradientType=1);
 }
 
 .card-title {
-  color: #ffffff;
-  font-weight: bold;
+  color:mintcream;
+  
   text-align: center;
+  font-family: 'Carter One', cursive;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  margin-top: 15px;
 
 }
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
@@ -33,6 +37,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5efb",endCo
   color: #ffffff;
   font-weight: bold;
   font-family: 'Share Tech Mono', monospace;
+  font-size: 15px;
+  text-align: center;
 }
 .raj-3 {
   background: rgb(131,58,180);

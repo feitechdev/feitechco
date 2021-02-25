@@ -18,213 +18,289 @@
   <link href="css/sw.css" rel="stylesheet" type="text/css">
   <link href="css/raj.css" rel="stylesheet" type="text/css">
   <script src="js/custom.js" charset="utf-8"></script>
+
 </head>
 
 <body>
 
+
   <header>
+    <!-- Creating a naigation bar  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+      <h1>FEI & C-Axis Co.</h1>
 
-
-      <div class="view intro-2" style="">
-          <div class="img/photo-1542435503-956c469947f6.jpeg">
-              <div class="mask rgba-purple-light flex-center ">
-                  <div class="container text-center white-text tracking-in-contract-bck-top">
-
-                      <h2><pre class="rainbow-text"><span>FEIC-Axis Technologies (P) Ltd.</span></pre></h2>
-                      <h2><div class="rainbow-text2"><span>Learn with the Best for the Best</span></div></h2>
-                  </div>
-
-
-              </div>
-          </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="" onclick="scrolltobottom()">Certification</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Courses
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Software Courses</a>
+              <a class="dropdown-item" href="#">Hardware Courses</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Others</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#"></a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
       </div>
+    </nav>
+    <!-- Creating a naigation bar  -->
+
+
+
 
   </header>
 
   <!-- Page Content -->
-  <div class="container">
+  <div class="overlay">
+    <div class="container">
+      <div id="overlay">
+        <div class="view intro-2">
+          <div>
+            <div class="container text-center white-text tracking-in-contract-bck-top">
+              <h2>
+                <pre class="rainbow-text"><span>FEIC-Axis Technologies (P) Ltd.</span></pre>
+              </h2>
+              <h2>
+                <div class="rainbow-text2"><span>Learn with the Best for the Best</span></div>
+              </h2>
+            </div>
 
 
-      <div class="row raj-1">
-        <div class="col-lg-6"> 
-          <h2>Welcome to FEIC-Axis Technologies</h2>
-          <p>FEIC-Axis Technologies is a Training,Development and Placement company which offers different technical trainings to the technical students as well as working professionals.</p>
-          <ul>
-            <li>
-              <strong>Live Online classes</strong>
-            </li>
-
-            <li>
-              <strong>High Quality Content</strong>
-            </li>
-            <li>
-              <strong>100% Placement Assistance</strong>
-            </li>
-            <li>
-              <strong>Project Oriented Learning</strong>
-            </li>
-            <li>
-              <strong>Internship Recommendations</strong>
-            </li>
-          </ul>
-          <p>FEIC-Axis Technologies is an educational start-up that helps you take the first step in your field of passion with the help of young achievers, mentors and guides. We're aiming at the development of Electric vehicle smart charging stations across all over the country.</p>
-        </div>
-        <div class="col-lg-6">
-          <img class="img-fluid rounded" src="img/FlyerMaker_20012021_213600.png" alt="">
+          </div>
         </div>
       </div>
+
+    </div>
+    <div class="row raj-1" id="first">
+      <div class="col-lg-12">
+        <h2>Welcome to FEIC-Axis Technologies</h2>
+        <p>FEIC-Axis Technologies is a Training,Development and Placement company which offers different technical
+          trainings to the technical students as well as working professionals.</p>
+        <ul>
+          <li>
+            <strong>Live Online classes</strong>
+          </li>
+
+          <li>
+            <strong>High Quality Content</strong>
+          </li>
+          <li>
+            <strong>100% Placement Assistance</strong>
+          </li>
+          <li>
+            <strong>Project Oriented Learning</strong>
+          </li>
+          <li>
+            <strong>Internship Recommendations</strong>
+          </li>
+        </ul>
+        <p>FEIC-Axis Technologies is an educational start-up that helps you take the first step in your field of passion
+          with the help of young achievers, mentors and guides. We're aiming at the development of Electric vehicle
+          smart charging stations across all over the country.</p>
+      </div>
+      <div class="col-lg-12">
+        <img class="img-fluid rounded" id="img-2" src="img/FlyerMaker_20012021_213600.png" alt="">
+      </div>
+    </div>
 
     <!-- /.row -->
 
     <!-- courses Section -->
-    <div class="raj-2"> OUR COURSES</div>
+    <div class="raj-2" id="second"> OUR COURSES</div>
     <div class="row">
-    <div class="col-lg-6 portfolio-item">
-      <div class="card h-100">
-        <a href="#"><img class="card-img-top" src="img/IMG_20210120_220352.png" alt=""></a>
-        <div class="card-body">
-          <h4 class="card-title">Web Development</h4>
-          <p class="card-text"><br>Fees: INR3000/-<br>Duration: 45Days<br>Coupon Code: WD23BATCH</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-6 portfolio-item">
-      <div class="card h-100">
-        <a href="#"><img class="card-img-top" src="img/IMG_20210120_220251.png" alt=""></a>
-        <div class="card-body">
-          <h4 class="card-title">Internet of Things (IoT) </h4>
-          <p class="card-text"><br>Fees: INR2500/-<br>Duration: 45Days<br>Coupon Code: IOT20BATCH</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-6 portfolio-item">
-      <div class="card h-100">
-        <a href="#"><img class="card-img-top" src="img/FlyerMaker_20012021_214018.png" alt=""></a>
-        <div class="card-body">
-          <h4 class="card-title">C & C++ Programming</h4>
-          <p class="card-text"><br>Fees: INR1800/-<br>Duration: 40Days<br>Coupon Code: CP22BATCH</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-6 portfolio-item">
-      <div class="card h-100">
-        <a href="#"><img class="card-img-top" src="img/IMG_20210120_220231.png" alt=""></a>
-        <div class="card-body">
-          <h4 class="card-title">Python Programming</h4>
-          <p class="card-text"><br>Fees: INR2000/-<br>Duration: 45Days<br>Coupon Code: PP20BATCH</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-6 portfolio-item">
-      <div class="card h-100">
-        <a href="#"><img class="card-img-top" src="img/FlyerMaker_20012021_212810.png" alt=""></a>
-        <div class="card-body">
-          <h4 class="card-title">Placement Preparation Program
-          </h4>
-          <p class="card-text"><br>Fees: INR4000/-<br>Duration: 60Days<br>Coupon Code: PPP23BTCH</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-6 portfolio-item">
-      <div class="card h-100">
-        <a href="#"><img class="card-img-top" src="img/FlyerMaker_20012021_214201.png" alt=""></a>
-        <div class="card-body">
-          <h4 class="card-title">Programmer's Pack
-          </h4>
-          <p class="card-text"><br>Fees: INR4000/-<br>Duration: 60Days<br>Coupon Code: CP20BATCH</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-6 portfolio-item">
-      <div class="card h-100">
-        <a href="#"><img class="card-img-top" src="img/FlyerMaker_20012021_214621.png" alt=""></a>
-        <div class="card-body">
-          <h4 class="card-title">SolidWorks</h4>
-          <p class="card-text"><br>Fees: INR1500/-<br>Duration: 40Days<br>Coupon Code: SW20BTCH</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-6 portfolio-item">
-      <div class="card h-100">
-        <a href="#"><img class="card-img-top" src="img/FlyerMaker_20012021_213815.png" alt=""></a>
-        <div class="card-body">
-          <h4 class="card-title">Entrepreneurship Development</h4>
-          <p class="card-text"><br>Fees: INR1200/-<br>Duration: 30Days<br>Coupon Code: ED20BTCH</p>
-        </div>
-      </div>
-    </div>
-  </div>
-<div class="col-lg-6 portfolio-item">
-      <div class="card h-100">
-        <a href="#"><img class="card-img-top" src="img/IMG_20210120_221200.png" alt=""></a>
-        <div class="card-body">
-          <h4 class="card-title">Student's Partner Internship Program</h4>
-          <p class="card-text"><br>No Registration Fees<br>Duration: 30 Days</p>
-        </div>
-      </div>
-    </div>
-<div class="raj-2"> OUR INITIATIVES</div>
-    <div class="row">
-    <div class="col-lg-6 portfolio-item">
-      <div class="card h-100">
-        <a href="#"><img class="card-img-top" src="img/FlyerMaker_20012021_215207.png" alt=""></a>
-        <div class="card-body">
-          <h4 class="card-title">Placement Drive</h4>
-          <p class="card-text"><br>The group is meant for the students who were preparing for placement to be placed in product based companies. <br>Here you'll be getting- <br>•Internship Updates<br>•Training Updates<br>•Offcampus drive<br>•Placement preparatory material of different companies and Many More.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-6 portfolio-item">
-      <div class="card h-100">
-        <a href="#"><img class="card-img-top" src="img/FlyerMaker_20012021_215804.png" alt=""></a>
-        <div class="card-body">
-          <h4 class="card-title">GATE Preparation</h4>
-          <p class="card-text">The Group is Meant for all those students who were preparing for GATE.
-Here you will get all the updates regarding GATE Exam such as Important Dates and Study Material including<br>•Notes<br>•Latest Syllabus<br>•Important Questions<br>•Previous Years Solved Question Papers.</p>
-        </div>
-      </div>
-    </div>
-<div class="col-lg-6 portfolio-item">
-      <div class="card h-100">
-        <a href="#"><img class="card-img-top" src="img/FlyerMaker_20012021_215952.png" alt=""></a>
-        <div class="card-body">
-          <h4 class="card-title">Shobhit Foundation</h4>
-          <p class="card-text">Shobhit Foundation is a non-profit organization (NGO) working in Uttarakhand, India. Established in 2020.Shobhit Foundation works in the following areas which are as follows- <br>•Education and Literacy<br>•Food and Agriculture<br>•Health & Nutrition<br>•Rural Development<br>•Women's Development & Empowerment
-
-The organization is operational in Uttarakhand. </p>
-        </div>
-      </div>
-    </div>
-    <!-- /.row -->
-
-    <!-- Features Section -->
-
-    <!-- /.row -->
-
-    <hr>
-
-    <!-- Call to Action Section -->
-    <div class="row mb-4">
-      <div class="col-md-8">
-        <p><font color="#ffffff">After completion of training programs in different courses students will be getting - <br>•Certificate of completion<br>•Letter of Recommendations<br>•100% Placement Assistance<br>•Life time access to the program. </font></p>
-      </div>
-      <div class="col-md-4">
-        <a class="btn btn-lg btn-secondary btn-block raj-3" data-toggle="modal" href="#myModal">Register Now</a>
-      </div>
-    </div>
-
-  </div>
-  <!-- /.container -->
-  <div id="myModal" class="modal fade" role="dialog">
-    <div class="modal-dialog">
-          <!-- Modal content-->
-          <div class="modal-content">
-            <div class="modal-body">
-              <iframe src="https://forms.gle/u41D5c9GLzEJrTD78" width="470" height="920" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <div class="col-lg-3 portfolio-item">
+        <div class="card50 ">
+          <a href=""><img class="card-img-top" src="img/IMG_20210120_220352.png" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">The Web Developer Bootcamp 2021</h4>
+            
+            <div> 
+              <p class="card-text"><br>Duration: 45Days<br>Coupon Code: WD23BATCH</p>
+              <p class="card-text" style="color:white;">Fees: INR<del>4500/-</del>3000/-</p>
             </div>
+            
+            
+            
+<!-- <div class="price-text--price-part--Tu6MH price-text--original-price--2e-F5 course-card--list-price--2AO6G udlite-text-sm" data-purpose="original-price-container"><div data-purpose="course-old-price-text"><span class="udlite-sr-only">Original Price</span><span><s><span>₹8,640</span></s></span></div></div> -->
+
           </div>
+        </div>
+      </div>
+      <div class="col-lg-3 portfolio-item">
+        <div class="card h-50">
+          <a href="#"><img class="card-img-top" src="img/IMG_20210120_220231.png" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">Python Programming</h4>
+            <p class="card-text"><br>Fees: INR2000/-<br>Duration: 45Days<br>Coupon Code: PP20BATCH</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 portfolio-item">
+        <div class="card h-50">
+          <a href="#"><img class="card-img-top" src="img/C11.jpg" alt=""></a>
+          <div class="container">
+            <h4 class="card-title" style="margin-top:32px;"> C++ Programming</h4>
+            <p class="card-text"><br>Fees: INR1800/-<br>Duration: 40Days<br>Coupon Code: CP22BATCH</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 portfolio-item">
+        <div class="card h-50">
+          <a href="#"><img class="card-img-top" src="img/IMG_20210120_220251.png" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">Internet of Things (IoT) </h4>
+            <p class="card-text"><br>Fees: INR2500/-<br>Duration: 45Days<br>Coupon Code: IOT20BATCH</p>
+          </div>
+        </div>
+      </div>
+  
+      
+      <div class="col-lg-3 portfolio-item">
+        <div class="card h-50">
+          <a href="#"><img class="card-img-top" src="img/FlyerMaker_20012021_212810.png" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">Placement Preparation Program
+            </h4>
+            <p class="card-text"><br>Fees: INR4000/-<br>Duration: 60Days<br>Coupon Code: PPP23BTCH</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 portfolio-item">
+        <div class="card h-50">
+          <a href="#"><img class="card-img-top" src="img/FlyerMaker_20012021_214201.png" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">Programmer's Pack
+            </h4>
+            <p style="color:white;" class="card-text"><br>Fees: INR<del>4999/-</del>3999/-/-<br>Duration: 60Days<br>Coupon Code: CP20BATCH</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 portfolio-item">
+        <div class="card h-50">
+          <a href="#"><img class="card-img-top" src="img/FlyerMaker_20012021_214621.png" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">SolidWorks</h4>
+            <p class="card-text"><br>Fees: INR1500/-<br>Duration: 40Days<br>Coupon Code: SW20BTCH</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 portfolio-item">
+        <div class="card h-50">
+          <a href="#"><img class="card-img-top" src="img/FlyerMaker_20012021_213815.png" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">Entrepreneurship Development</h4>
+            <p class="card-text"><br>Fees: INR1200/-<br>Duration: 30Days<br>Coupon Code: ED20BTCH</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- student partner program start--> 
+<div >
+  <div >
+    <a href="#"><img class="centre" id="center_1" src="img/IMG_20210120_221200.png" alt=""></a>
+    <div >
+      <h4 class="centre">Student's Partner Internship Program</h4>
+      <p class="centre"><br>No Registration Fees<br>Duration: 30 Days</p>
+       <!-- <button type="button" class="btn btn-secondary btn-lg btn-block" id="firstid" ><a href="https://forms.gle/6evjapE1iJDCXYts9" src="https://forms.gle/6evjapE1iJDCXYts9"></a>Register Here</button> -->
+      <a href="https://forms.gle/6evjapE1iJDCXYts9" class="button">Register</a> 
+    </div>
+  </div> 
+</div>
+<!-- student partner program end--> 
+
+      <div class="raj-2"> OUR INITIATIVES</div> 
+    <div class="row">
+      <div class="col-lg-4 portfolio-item">
+        <div class="card h-60">
+          <a href="#"><centre><img class="card-img-top"  src="img/FlyerMaker_20012021_215207.png"  alt=""></centre></a>
+          <div class="card-body">
+            <h4 class="card-title">Placement Drive</h4>
+            <p class="card-text"><br>The group is meant for the students who were preparing for placement to be placed
+              in product based companies. <br>Here you'll be getting- <br>•Internship Updates<br>•Training
+              Updates<br>•Offcampus drive<br>•Placement preparatory material of different companies and Many More.</p>
+          </div>
+        </div>
+      </div>
+       <div class="col-lg-4 portfolio-item">
+         <div class="card h-50">
+          <a href="#"><img class="card-img-center" id="firstimage"src="img/FlyerMaker_20012021_215804.png" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">GATE Preparation</h4>
+            <p class="card-text">The Group is Meant for all those students who were preparing for GATE.
+              Here you will get all the updates regarding GATE Exam such as Important Dates and Study Material
+              including<br>•Notes<br>•Latest Syllabus<br>•Important Questions<br>•Previous Years Solved Question Papers.
+            </p>
+          </div>
+        </div> 
+      </div> 
+        <div class="col-lg-4 portfolio-item"> 
+        <div class="card h-60">
+        <div class="card h-60">
+          <a href="#"><img class="card-img-top" src="img/FlyerMaker_20012021_215952.png" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">Shobhit Foundation</h4>
+            <p class="card-text">Shobhit Foundation is a non-profit organization (NGO) working in Uttarakhand, India.
+              Established in 2020.Shobhit Foundation works in the following areas which are as follows- <br>•Education
+              and Literacy<br>•Food and Agriculture<br>•Health & Nutrition<br>•Rural Development<br>•Women's Development
+              & Empowerment
+
+              The organization is operational in Uttarakhand. </p>
+          </div>
+        </div>
+      </div> 
+      <!-- /.row -->
+
+      <!-- Features Section -->
+
+      <!-- /.row -->
+
+      <hr>
+
+      <!-- Call to Action Section -->
+      <div class="row mb-4">
+        <div class="col-md-8">
+          <p style="color:#ffffff">After completion of training programs in different courses students will be getting -
+            <br>•Certificate of completion<br>•Letter of Recommendations<br>•100% Placement Assistance<br>•Life time
+            access to the program. 
+          </p>
+        </div>
+        <div class="col-md-4">
+          <a class="btn btn-lg btn-secondary btn-block raj-3" data-toggle="modal" href="#myModal">Register Now</a>
+        </div>
+      </div>
+
+    </div>
+    <!-- /.container -->
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-body">
+            <iframe src="https://forms.gle/u41D5c9GLzEJrTD78" width="470" height="920" frameborder="0" marginheight="0"
+              marginwidth="0">Loading…</iframe>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+
   <!-- Footer -->
   <footer class="py-5 bg-dark raj-4">
     <div class="container">
@@ -236,7 +312,9 @@ The organization is operational in Uttarakhand. </p>
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </body>
+
 
 </html>
